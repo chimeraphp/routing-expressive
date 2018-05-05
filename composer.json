@@ -1,6 +1,6 @@
 {
-    "name": "lcobucci/chimera-routing-expressive",
-    "description": "Zend Expressive implementation for lcobucci/chimera-routing",
+    "name": "chimera/routing-expressive",
+    "description": "Zend Expressive implementation for chimera/routing",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -44,7 +44,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "0.1.x-dev"
         }
     }
 }
