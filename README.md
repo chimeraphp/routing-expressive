@@ -1,13 +1,13 @@
 # Chimera - routing/expressive
 
-[![Total Downloads](https://img.shields.io/packagist/dt/lcobucci/chimera-routing-expressive.svg?style=flat-square)](https://packagist.org/packages/lcobucci/chimera-routing-expressive)
-[![Latest Stable Version](https://img.shields.io/packagist/v/lcobucci/chimera-routing-expressive.svg?style=flat-square)](https://packagist.org/packages/lcobucci/chimera-routing-expressive)
-[![Unstable Version](https://img.shields.io/packagist/vpre/lcobucci/chimera-routing-expressive.svg?style=flat-square)](https://packagist.org/packages/lcobucci/chimera-routing-expressive)
+[![Total Downloads](https://img.shields.io/packagist/dt/chimera/routing-expressive.svg?style=flat-square)](https://packagist.org/packages/chimera/routing-expressive)
+[![Latest Stable Version](https://img.shields.io/packagist/v/chimera/routing-expressive.svg?style=flat-square)](https://packagist.org/packages/chimera/routing-expressive)
+[![Unstable Version](https://img.shields.io/packagist/vpre/chimera/routing-expressive.svg?style=flat-square)](https://packagist.org/packages/chimera/routing-expressive)
 
 ![Branch master](https://img.shields.io/badge/branch-master-brightgreen.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/lcobucci/chimera-routing-expressive/master.svg?style=flat-square)](http://travis-ci.org/#!/lcobucci/chimera-routing-expressive)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/lcobucci/chimera-routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/lcobucci/chimera-routing-expressive/?branch=master)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/lcobucci/chimera-routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/lcobucci/chimera-routing-expressive/?branch=master)
+[![Build Status](https://img.shields.io/travis/chimeraphp/routing-expressive/master.svg?style=flat-square)](http://travis-ci.org/#!/chimeraphp/routing-expressive)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/chimeraphp/routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/chimeraphp/routing-expressive/?branch=master)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/chimeraphp/routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/chimeraphp/routing-expressive/?branch=master)
 
 > The term Chimera (_/kɪˈmɪərə/_ or _/kaɪˈmɪərə/_) has come to describe any
 mythical or fictional animal with parts taken from various animals, or to
@@ -29,11 +29,11 @@ can be used as HTTP application.
 
 ## Installation
 
-Package is available on [Packagist](http://packagist.org/packages/lcobucci/chimera-routing-expressive),
+Package is available on [Packagist](http://packagist.org/packages/chimera/routing-expressive),
 you can install it using [Composer](http://getcomposer.org).
 
 ```shell
-composer require lcobucci/chimera-routing-expressive
+composer require chimera/routing-expressive
 ```
 
 ### PHP Configuration
@@ -54,10 +54,10 @@ Check the documentation for more information: https://secure.php.net/manual/en/f
 ## Usage
 
 To use this package you need to configured your Zend Expressive application to
-use our packages (as explained [here](https://github.com/lcobucci/chimera-routing#usage))
-and register instances of `Lcobucci\Chimera\Routing\Expressive\UriGenerator` and
-`Lcobucci\Chimera\Routing\Expressive\RouteParamsExtractor` in your DI container. 
+use our packages (as explained [here](https://github.com/chimeraphp/routing#usage))
+and register instances of `Chimera\Routing\Expressive\UriGenerator` and
+`Chimera\Routing\Expressive\RouteParamsExtractor` in your DI container. 
 
 ## License
 
-MIT, see [LICENSE file](https://github.com/lcobucci/chimera-routing-expressive/blob/master/LICENSE).
+MIT, see [LICENSE file](https://github.com/chimeraphp/routing-expressive/blob/master/LICENSE).
