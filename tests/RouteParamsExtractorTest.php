@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\Chimera\Routing\Expressive\Tests;
+namespace Chimera\Routing\Expressive\Tests;
 
-use Lcobucci\Chimera\Routing\Expressive\RouteParamsExtractor;
+use Chimera\Routing\Expressive\RouteParamsExtractor;
 use PHPUnit\Framework\TestCase;
 use Zend\Diactoros\ServerRequest;
 use Zend\Expressive\Router\Route;
 use Zend\Expressive\Router\RouteResult;
 
 /**
- * @coversDefaultClass \Lcobucci\Chimera\Routing\Expressive\RouteParamsExtractor
+ * @coversDefaultClass \Chimera\Routing\Expressive\RouteParamsExtractor
  */
 final class RouteParamsExtractorTest extends TestCase
 {

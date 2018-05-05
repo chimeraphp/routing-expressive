@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\Chimera\Routing\Expressive;
+namespace Chimera\Routing\Expressive;
 
-use Lcobucci\Chimera\IdentifierGenerator;
-use Lcobucci\Chimera\Routing\RouteParamsExtraction;
-use Lcobucci\Chimera\Routing\UriGenerator as UriGeneratorInterface;
+use Chimera\IdentifierGenerator;
+use Chimera\Routing\RouteParamsExtraction;
+use Chimera\Routing\UriGenerator as UriGeneratorInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Expressive\Router\RouterInterface;
 use function assert;

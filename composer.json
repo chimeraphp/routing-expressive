@@ -15,8 +15,7 @@
     },
     "require": {
         "php": "^7.2",
-        "lcobucci/chimera-foundation": "^1.0@rc",
-        "lcobucci/chimera-routing": "^1.0@rc",
+        "chimera/routing": "^0.1",
         "zendframework/zend-diactoros": "^1.7",
         "zendframework/zend-expressive": "^3.0",
         "zendframework/zend-expressive-fastroute": "^3.0",
@@ -34,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lcobucci\\Chimera\\Routing\\Expressive\\": "src"
+            "Chimera\\Routing\\Expressive\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lcobucci\\Chimera\\Routing\\Expressive\\Tests\\": "tests"
+            "Chimera\\Routing\\Expressive\\Tests\\": "tests"
         }
     },
     "extra": {

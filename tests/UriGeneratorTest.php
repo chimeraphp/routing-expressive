@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\Chimera\Routing\Expressive\Tests;
+namespace Chimera\Routing\Expressive\Tests;
 
-use Lcobucci\Chimera\IdentifierGenerator;
-use Lcobucci\Chimera\Routing\Expressive\UriGenerator;
-use Lcobucci\Chimera\Routing\RouteParamsExtraction;
+use Chimera\IdentifierGenerator;
+use Chimera\Routing\Expressive\UriGenerator;
+use Chimera\Routing\RouteParamsExtraction;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
@@ -13,7 +13,7 @@ use Zend\Diactoros\ServerRequest;
 use Zend\Expressive\Router\RouterInterface;
 
 /**
- * @coversDefaultClass \Lcobucci\Chimera\Routing\Expressive\UriGenerator
+ * @coversDefaultClass \Chimera\Routing\Expressive\UriGenerator
  */
 final class UriGeneratorTest extends TestCase
 {

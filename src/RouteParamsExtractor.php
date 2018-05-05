@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\Chimera\Routing\Expressive;
+namespace Chimera\Routing\Expressive;
 
-use Lcobucci\Chimera\Routing\RouteParamsExtractor as RouteParamsExtractorInterface;
+use Chimera\Routing\RouteParamsExtractor as RouteParamsExtractorInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Expressive\Router\RouteResult;
 use function assert;
