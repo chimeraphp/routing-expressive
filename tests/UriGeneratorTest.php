@@ -50,7 +50,7 @@ final class UriGeneratorTest extends TestCase
 
         $this->router->expects(self::once())
                      ->method('generateUri')
-                     ->with('test', $expectedSubstitutions)
+                     ->with('test', self::identicalTo($expectedSubstitutions))
                      ->willReturn('/test');
 
         self::assertSame('/test', $generator->generateRelativePath($request, 'test', $substitutions));
@@ -79,21 +79,21 @@ final class UriGeneratorTest extends TestCase
             ],
             'id only'             => [
                 (new ServerRequest())->withAttribute(RouteParamsExtraction::class, [])
-                                     ->withAttribute(IdentifierGenerator::class, '1'),
+                                     ->withAttribute(IdentifierGenerator::class, 1),
                 [],
                 ['id' => '1'],
             ],
             'id only + subs'      => [
                 (new ServerRequest())->withAttribute(RouteParamsExtraction::class, [])
-                                     ->withAttribute(IdentifierGenerator::class, '1'),
+                                     ->withAttribute(IdentifierGenerator::class, 1),
                 ['test' => '1', 'id' => '1234'],
-                ['id' => '1', 'test' => '1'],
+                ['test' => '1', 'id' => '1'],
             ],
             'everything together' => [
                 (new ServerRequest())->withAttribute(RouteParamsExtraction::class, ['test' => '2', 'a' => '1'])
-                                     ->withAttribute(IdentifierGenerator::class, '1'),
+                                     ->withAttribute(IdentifierGenerator::class, 1),
                 ['test' => '1', 'id' => '1234'],
-                ['id' => '1', 'test' => '1', 'a' => '1'],
+                ['test' => '1', 'id' => '1', 'a' => '1'],
             ],
         ];
     }
