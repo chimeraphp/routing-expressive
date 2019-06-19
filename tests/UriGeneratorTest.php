@@ -57,7 +57,7 @@ final class UriGeneratorTest extends TestCase
     }
 
     /**
-     * @return mixed[]
+     * @return array<string, array<int, ServerRequest|array<string, string>>>
      */
     public function possibleScenarios(): array
     {
