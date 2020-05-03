@@ -10,10 +10,7 @@ use Zend\Expressive\Application as Expressive;
 
 final class Application implements ApplicationInterface
 {
-    /**
-     * @var Expressive
-     */
-    private $application;
+    private Expressive $application;
 
     public function __construct(Expressive $application)
     {
