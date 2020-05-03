@@ -5,7 +5,7 @@
 [![Unstable Version](https://img.shields.io/packagist/vpre/chimera/routing-expressive.svg?style=flat-square)](https://packagist.org/packages/chimera/routing-expressive)
 
 ![Branch master](https://img.shields.io/badge/branch-master-brightgreen.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/chimeraphp/routing-expressive/master.svg?style=flat-square)](http://travis-ci.org/#!/chimeraphp/routing-expressive)
+[![Build Status](https://img.shields.io/travis/chimeraphp/routing-expressive/master.svg?style=flat-square)](http://travis-ci.com/chimeraphp/routing-expressive)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/chimeraphp/routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/chimeraphp/routing-expressive/?branch=master)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/chimeraphp/routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/chimeraphp/routing-expressive/?branch=master)
 

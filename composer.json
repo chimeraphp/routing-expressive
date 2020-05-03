@@ -3,6 +3,7 @@
     "description": "Zend Expressive implementation for chimera/routing",
     "type": "library",
     "license": "MIT",
+    "abandoned": "chimera/routing-mezzio",
     "authors": [
         {
             "name": "Luís Cobucci",
