@@ -32,6 +32,9 @@
         "phpstan/phpstan-strict-rules": "^0.12",
         "phpunit/phpunit": "^9.1"
     },
+    "provide": {
+        "chimera/routing-implementation": "0.4.0"
+    },
     "autoload": {
         "psr-4": {
             "Chimera\\Routing\\Expressive\\": "src"
