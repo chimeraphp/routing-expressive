@@ -15,7 +15,8 @@
     },
     "require": {
         "php": "^7.4 || ^8.0",
-        "chimera/routing": "^0.3",
+        "chimera/foundation": "^0.4@dev",
+        "chimera/routing": "^0.4@dev",
         "zendframework/zend-diactoros": "^2.2",
         "zendframework/zend-expressive": "^3.2",
         "zendframework/zend-expressive-fastroute": "^3.0",
