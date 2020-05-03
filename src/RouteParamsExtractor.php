@@ -6,7 +6,6 @@ namespace Chimera\Routing\Expressive;
 use Chimera\Routing\RouteParamsExtractor as RouteParamsExtractorInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Expressive\Router\RouteResult;
-use function assert;
 
 final class RouteParamsExtractor implements RouteParamsExtractorInterface
 {
@@ -16,9 +15,8 @@ final class RouteParamsExtractor implements RouteParamsExtractorInterface
     public function getParams(ServerRequestInterface $request): array
     {
         $routeResult = $request->getAttribute(RouteResult::class);
-        assert($routeResult === null || $routeResult instanceof RouteResult);
 
-        if ($routeResult === null) {
+        if (! $routeResult instanceof RouteResult) {
             return [];
         }
 
