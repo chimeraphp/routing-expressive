@@ -13,10 +13,7 @@ use function is_array;
 
 final class UriGenerator implements UriGeneratorInterface
 {
-    /**
-     * @var RouterInterface
-     */
-    private $router;
+    private RouterInterface $router;
 
     public function __construct(RouterInterface $router)
     {

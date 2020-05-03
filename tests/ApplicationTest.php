@@ -26,20 +26,17 @@ use Zend\Stratigility\MiddlewarePipeInterface;
  */
 final class ApplicationTest extends TestCase
 {
-    /**
-     * @var Expressive
-     */
-    private $expressive;
+    private Expressive $expressive;
 
     /**
      * @var EmitterInterface&MockObject
      */
-    private $emitter;
+    private EmitterInterface $emitter;
 
     /**
      * @var MiddlewarePipeInterface&MockObject
      */
-    private $pipeline;
+    private MiddlewarePipeInterface $pipeline;
 
     /**
      * @before
