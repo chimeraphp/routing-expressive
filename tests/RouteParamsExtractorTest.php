@@ -9,9 +9,7 @@ use Zend\Diactoros\ServerRequest;
 use Zend\Expressive\Router\Route;
 use Zend\Expressive\Router\RouteResult;
 
-/**
- * @coversDefaultClass \Chimera\Routing\Expressive\RouteParamsExtractor
- */
+/** @coversDefaultClass \Chimera\Routing\Expressive\RouteParamsExtractor */
 final class RouteParamsExtractorTest extends TestCase
 {
     /**

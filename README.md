@@ -1,13 +1,11 @@
 # Chimera - routing/expressive
 
-[![Total Downloads](https://img.shields.io/packagist/dt/chimera/routing-expressive.svg?style=flat-square)](https://packagist.org/packages/chimera/routing-expressive)
-[![Latest Stable Version](https://img.shields.io/packagist/v/chimera/routing-expressive.svg?style=flat-square)](https://packagist.org/packages/chimera/routing-expressive)
-[![Unstable Version](https://img.shields.io/packagist/vpre/chimera/routing-expressive.svg?style=flat-square)](https://packagist.org/packages/chimera/routing-expressive)
+[![Total Downloads]](https://packagist.org/packages/chimera/routing-expressive)
+[![Latest Stable Version]](https://packagist.org/packages/chimera/routing-expressive)
+[![Unstable Version]](https://packagist.org/packages/chimera/routing-expressive)
 
-![Branch master](https://img.shields.io/badge/branch-master-brightgreen.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/com/chimeraphp/routing-expressive/master.svg?style=flat-square)](http://travis-ci.com/chimeraphp/routing-expressive)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/chimeraphp/routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/chimeraphp/routing-expressive/?branch=master)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/chimeraphp/routing-expressive/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/chimeraphp/routing-expressive/?branch=master)
+[![Build Status]](https://github.com/chimeraphp/routing-expressive/actions?query=workflow%3A%22PHPUnit%20Tests%22+branch%3Amaster)
+[![Code Coverage]](https://codecov.io/gh/chimeraphp/routing-expressive)
 
 > The term Chimera (_/kɪˈmɪərə/_ or _/kaɪˈmɪərə/_) has come to describe any
 mythical or fictional animal with parts taken from various animals, or to
@@ -60,4 +58,13 @@ and register instances of `Chimera\Routing\Expressive\UriGenerator` and
 
 ## License
 
-MIT, see [LICENSE file](https://github.com/chimeraphp/routing-expressive/blob/master/LICENSE).
+MIT, see [LICENSE].
+
+[Total Downloads]: https://img.shields.io/packagist/dt/chimera/routing-expressive.svg?style=flat-square
+[Latest Stable Version]: https://img.shields.io/packagist/v/chimera/routing-expressive.svg?style=flat-square
+[Unstable Version]: https://img.shields.io/packagist/vpre/chimera/routing-expressive.svg?style=flat-square
+[Build Status]: https://img.shields.io/github/workflow/status/chimeraphp/routing-expressive/PHPUnit%20tests/master?style=flat-square
+[Code Coverage]: https://codecov.io/gh/chimeraphp/routing-expressive/branch/master/graph/badge.svg
+[Packagist]: http://packagist.org/packages/chimera/routing-expressive
+[Composer]: http://getcomposer.org
+[LICENSE]: LICENSE

@@ -12,19 +12,13 @@ use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\ServerRequest;
 use Zend\Expressive\Router\RouterInterface;
 
-/**
- * @coversDefaultClass \Chimera\Routing\Expressive\UriGenerator
- */
+/** @coversDefaultClass \Chimera\Routing\Expressive\UriGenerator */
 final class UriGeneratorTest extends TestCase
 {
-    /**
-     * @var RouterInterface|MockObject
-     */
+    /** @var RouterInterface|MockObject */
     private $router;
 
-    /**
-     * @before
-     */
+    /** @before */
     public function configureRouter(): void
     {
         $this->router = $this->createMock(RouterInterface::class);
@@ -56,9 +50,7 @@ final class UriGeneratorTest extends TestCase
         self::assertSame('/test', $generator->generateRelativePath($request, 'test', $substitutions));
     }
 
-    /**
-     * @return array<string, array<int, ServerRequest|array<string, string>>>
-     */
+    /** @return array<string, array<int, ServerRequest|array<string, string>>> */
     public function possibleScenarios(): array
     {
         return [
