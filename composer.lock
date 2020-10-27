@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "df5432092d2ed20b8258dbdb0f64a219d1baed53"
+                "reference": "989d42b9906ce9bec6030c4ee04c808da6f73c29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/df5432092d2ed20b8258dbdb0f64a219d1baed53",
-                "reference": "df5432092d2ed20b8258dbdb0f64a219d1baed53",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/989d42b9906ce9bec6030c4ee04c808da6f73c29",
+                "reference": "989d42b9906ce9bec6030c4ee04c808da6f73c29",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-26T21:30:16+00:00"
+            "time": "2020-10-27T15:07:32+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "9136e77f1e47e1778b0377adca8320d76b2bf4c3"
+                "reference": "9bc8e28a1fdb1a809a622364b55b9d008a253faa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/9136e77f1e47e1778b0377adca8320d76b2bf4c3",
-                "reference": "9136e77f1e47e1778b0377adca8320d76b2bf4c3",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/9bc8e28a1fdb1a809a622364b55b9d008a253faa",
+                "reference": "9bc8e28a1fdb1a809a622364b55b9d008a253faa",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-27T08:36:31+00:00"
+            "time": "2020-10-27T12:19:00+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -3096,16 +3096,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.0",
+            "version": "9.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "53a4b737e83be724efd2bc4e7b929b9a30c48972"
+                "reference": "ed363c3ce393560a1c300dce0298bbf0f0528b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/53a4b737e83be724efd2bc4e7b929b9a30c48972",
-                "reference": "53a4b737e83be724efd2bc4e7b929b9a30c48972",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ed363c3ce393560a1c300dce0298bbf0f0528b13",
+                "reference": "ed363c3ce393560a1c300dce0298bbf0f0528b13",
                 "shasum": ""
             },
             "require": {
@@ -3165,7 +3165,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-02T03:37:32+00:00"
+            "time": "2020-10-26T15:46:21+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -4133,16 +4133,16 @@
         },
         {
             "name": "sebastian/lines-of-code",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/lines-of-code.git",
-                "reference": "6514b8f21906b8b46f520d1fbd17a4523fa59a54"
+                "reference": "acf76492a65401babcf5283296fa510782783a7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/6514b8f21906b8b46f520d1fbd17a4523fa59a54",
-                "reference": "6514b8f21906b8b46f520d1fbd17a4523fa59a54",
+                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/acf76492a65401babcf5283296fa510782783a7a",
+                "reference": "acf76492a65401babcf5283296fa510782783a7a",
                 "shasum": ""
             },
             "require": {
@@ -4182,7 +4182,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T06:07:27+00:00"
+            "time": "2020-10-26T17:03:56+00:00"
         },
         {
             "name": "sebastian/object-enumerator",
