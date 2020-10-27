@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "910d0eadf29993abca5f618940a3f0b59a96c0a9"
+                "reference": "ea42a3a6d4b1fbe5c51b4e6fb9e27fa4248d8bb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/910d0eadf29993abca5f618940a3f0b59a96c0a9",
-                "reference": "910d0eadf29993abca5f618940a3f0b59a96c0a9",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/ea42a3a6d4b1fbe5c51b4e6fb9e27fa4248d8bb4",
+                "reference": "ea42a3a6d4b1fbe5c51b4e6fb9e27fa4248d8bb4",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-27T08:17:36+00:00"
+            "time": "2020-10-27T08:23:48+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -3826,16 +3826,16 @@
         },
         {
             "name": "sebastian/complexity",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/complexity.git",
-                "reference": "ba8cc2da0c0bfbc813d03b56406734030c7f1eff"
+                "reference": "739b35e53379900cc9ac327b2147867b8b6efd88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/ba8cc2da0c0bfbc813d03b56406734030c7f1eff",
-                "reference": "ba8cc2da0c0bfbc813d03b56406734030c7f1eff",
+                "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/739b35e53379900cc9ac327b2147867b8b6efd88",
+                "reference": "739b35e53379900cc9ac327b2147867b8b6efd88",
                 "shasum": ""
             },
             "require": {
@@ -3875,7 +3875,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T06:05:03+00:00"
+            "time": "2020-10-26T15:52:27+00:00"
         },
         {
             "name": "sebastian/diff",
