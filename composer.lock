@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "05b41ee9e7b2f482832fb4b4a9e1d35049d0e7b6"
+                "reference": "051807801793a7c84933025eb708e68d8b03f4de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/05b41ee9e7b2f482832fb4b4a9e1d35049d0e7b6",
-                "reference": "05b41ee9e7b2f482832fb4b4a9e1d35049d0e7b6",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/051807801793a7c84933025eb708e68d8b03f4de",
+                "reference": "051807801793a7c84933025eb708e68d8b03f4de",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +77,7 @@
                 "ramsey/uuid": "^4.1"
             },
             "require-dev": {
-                "infection/infection": "^0.18",
+                "infection/infection": "^0.19",
                 "lcobucci/coding-standard": "^6.0",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12",
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-28T19:01:32+00:00"
+            "time": "2020-10-28T19:03:23+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "94fe413bb404dc8957fb6afeba6061be77fc06cd"
+                "reference": "709e8aec982847f20069526e55a43407255965eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/94fe413bb404dc8957fb6afeba6061be77fc06cd",
-                "reference": "94fe413bb404dc8957fb6afeba6061be77fc06cd",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/709e8aec982847f20069526e55a43407255965eb",
+                "reference": "709e8aec982847f20069526e55a43407255965eb",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-28T09:17:53+00:00"
+            "time": "2020-10-28T19:41:06+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -4756,16 +4756,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.1.7",
+            "version": "v5.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "1a8697545a8d87b9f2f6b1d32414199cc5e20aae"
+                "reference": "df08650ea7aee2d925380069c131a66124d79177"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/1a8697545a8d87b9f2f6b1d32414199cc5e20aae",
-                "reference": "1a8697545a8d87b9f2f6b1d32414199cc5e20aae",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/df08650ea7aee2d925380069c131a66124d79177",
+                "reference": "df08650ea7aee2d925380069c131a66124d79177",
                 "shasum": ""
             },
             "require": {
@@ -4773,11 +4773,6 @@
                 "symfony/polyfill-ctype": "~1.8"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.1-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Filesystem\\": ""
@@ -4816,7 +4811,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-27T14:02:37+00:00"
+            "time": "2020-10-24T12:01:57+00:00"
         },
         {
             "name": "symfony/finder",
