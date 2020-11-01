@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "63857c5833a6a6d9764c0f536002bb7e78a9da0f"
+                "reference": "ee42090d0f3a47779bb2046d88a87cf1b6fcb25d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/63857c5833a6a6d9764c0f536002bb7e78a9da0f",
-                "reference": "63857c5833a6a6d9764c0f536002bb7e78a9da0f",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/ee42090d0f3a47779bb2046d88a87cf1b6fcb25d",
+                "reference": "ee42090d0f3a47779bb2046d88a87cf1b6fcb25d",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-10-29T13:47:55+00:00"
+            "time": "2020-10-30T17:57:51+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -2874,16 +2874,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.52",
+            "version": "0.12.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e96dd5e7ae9aefed663bc7e285ad96792b67eadc"
+                "reference": "dbbdb0d7c2434ecd5289f6114d16473e694caa67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e96dd5e7ae9aefed663bc7e285ad96792b67eadc",
-                "reference": "e96dd5e7ae9aefed663bc7e285ad96792b67eadc",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dbbdb0d7c2434ecd5289f6114d16473e694caa67",
+                "reference": "dbbdb0d7c2434ecd5289f6114d16473e694caa67",
                 "shasum": ""
             },
             "require": {
@@ -2926,7 +2926,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-25T07:23:44+00:00"
+            "time": "2020-11-01T14:51:50+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
