@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "c16f445d2929bd17cc2b701836cabc25a21698d5"
+                "reference": "b73bd61b70c4017a94830d74e11eb82b49b5c8d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/c16f445d2929bd17cc2b701836cabc25a21698d5",
-                "reference": "c16f445d2929bd17cc2b701836cabc25a21698d5",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/b73bd61b70c4017a94830d74e11eb82b49b5c8d3",
+                "reference": "b73bd61b70c4017a94830d74e11eb82b49b5c8d3",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-11-30T06:23:04+00:00"
+            "time": "2020-11-30T06:30:10+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "5e77a3db6a5aea5c1568bee8fcbe3d5030bb943b"
+                "reference": "e263b5453a84490e885bc7dc87f88f1e43412c40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/5e77a3db6a5aea5c1568bee8fcbe3d5030bb943b",
-                "reference": "5e77a3db6a5aea5c1568bee8fcbe3d5030bb943b",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/e263b5453a84490e885bc7dc87f88f1e43412c40",
+                "reference": "e263b5453a84490e885bc7dc87f88f1e43412c40",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-11-30T06:19:54+00:00"
+            "time": "2020-11-30T06:31:06+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -4656,16 +4656,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e0b2c29c0fa6a69089209bbe8fcff4df2a313d0e"
+                "reference": "3e0564fb08d44a98bd5f1960204c958e57bd586b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e0b2c29c0fa6a69089209bbe8fcff4df2a313d0e",
-                "reference": "e0b2c29c0fa6a69089209bbe8fcff4df2a313d0e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/3e0564fb08d44a98bd5f1960204c958e57bd586b",
+                "reference": "3e0564fb08d44a98bd5f1960204c958e57bd586b",
                 "shasum": ""
             },
             "require": {
@@ -4726,6 +4726,12 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+            "keywords": [
+                "cli",
+                "command line",
+                "console",
+                "terminal"
+            ],
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4740,7 +4746,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-28T11:24:18+00:00"
         },
         {
             "name": "symfony/filesystem",
