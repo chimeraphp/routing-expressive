@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02f163a84fce26073246b2d55c962e94",
+    "content-hash": "44304bbca48cfc2f5329a7d9fec5b867",
     "packages": [
         {
             "name": "brick/math",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "40acaced0867472e1004f1b80e373b89debe118c"
+                "reference": "3901f411956e9715116f235c4a27708d95422985"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/40acaced0867472e1004f1b80e373b89debe118c",
-                "reference": "40acaced0867472e1004f1b80e373b89debe118c",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/3901f411956e9715116f235c4a27708d95422985",
+                "reference": "3901f411956e9715116f235c4a27708d95422985",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-01T05:49:56+00:00"
+            "time": "2020-12-03T17:51:59+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "713dc40d89fb5749f02a099006bbd4a5d29a5972"
+                "reference": "90087bdac2d6291fa8b592c7ccc5159a93239408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/713dc40d89fb5749f02a099006bbd4a5d29a5972",
-                "reference": "713dc40d89fb5749f02a099006bbd4a5d29a5972",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/90087bdac2d6291fa8b592c7ccc5159a93239408",
+                "reference": "90087bdac2d6291fa8b592c7ccc5159a93239408",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-02T00:19:41+00:00"
+            "time": "2020-12-03T17:51:47+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -3384,16 +3384,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.4.4",
+            "version": "9.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6535e637961f0829832621dc1b7308c2d24a799e"
+                "reference": "8e16c225d57c3d6808014df6b1dd7598d0a5bbbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6535e637961f0829832621dc1b7308c2d24a799e",
-                "reference": "6535e637961f0829832621dc1b7308c2d24a799e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e16c225d57c3d6808014df6b1dd7598d0a5bbbe",
+                "reference": "8e16c225d57c3d6808014df6b1dd7598d0a5bbbe",
                 "shasum": ""
             },
             "require": {
@@ -3409,7 +3409,7 @@
                 "phar-io/version": "^3.0.2",
                 "php": ">=7.3",
                 "phpspec/prophecy": "^1.12.1",
-                "phpunit/php-code-coverage": "^9.2",
+                "phpunit/php-code-coverage": "^9.2.3",
                 "phpunit/php-file-iterator": "^3.0.5",
                 "phpunit/php-invoker": "^3.1.1",
                 "phpunit/php-text-template": "^2.0.3",
@@ -3440,7 +3440,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "9.4-dev"
+                    "dev-master": "9.5-dev"
                 }
             },
             "autoload": {
@@ -3479,7 +3479,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-01T04:58:47+00:00"
+            "time": "2020-12-04T05:05:53+00:00"
         },
         {
             "name": "psr/log",
