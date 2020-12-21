@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "c7186551315366885c07fc4051a859818e6cf17c"
+                "reference": "b5ac4b104fa57bc38bbe998893363e2535a1ba4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/c7186551315366885c07fc4051a859818e6cf17c",
-                "reference": "c7186551315366885c07fc4051a859818e6cf17c",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/b5ac4b104fa57bc38bbe998893363e2535a1ba4f",
+                "reference": "b5ac4b104fa57bc38bbe998893363e2535a1ba4f",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-20T10:09:52+00:00"
+            "time": "2020-12-21T06:40:07+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -4641,16 +4641,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "3e0564fb08d44a98bd5f1960204c958e57bd586b"
+                "reference": "47c02526c532fb381374dab26df05e7313978976"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/3e0564fb08d44a98bd5f1960204c958e57bd586b",
-                "reference": "3e0564fb08d44a98bd5f1960204c958e57bd586b",
+                "url": "https://api.github.com/repos/symfony/console/zipball/47c02526c532fb381374dab26df05e7313978976",
+                "reference": "47c02526c532fb381374dab26df05e7313978976",
                 "shasum": ""
             },
             "require": {
@@ -4731,7 +4731,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-28T11:24:18+00:00"
+            "time": "2020-12-18T08:03:05+00:00"
         },
         {
             "name": "symfony/filesystem",
