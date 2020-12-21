@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "65287fb9adce05aa609f63468e5434bf47051cc9"
+                "reference": "eaddea7fe8d6de3cb076594fa174fc7a627ba9a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/65287fb9adce05aa609f63468e5434bf47051cc9",
-                "reference": "65287fb9adce05aa609f63468e5434bf47051cc9",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/eaddea7fe8d6de3cb076594fa174fc7a627ba9a6",
+                "reference": "eaddea7fe8d6de3cb076594fa174fc7a627ba9a6",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-20T10:09:28+00:00"
+            "time": "2020-12-21T06:48:19+00:00"
         },
         {
             "name": "chimera/routing",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "b5ac4b104fa57bc38bbe998893363e2535a1ba4f"
+                "reference": "5350749d238f4d188d757662b785e40d9fc8d164"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/b5ac4b104fa57bc38bbe998893363e2535a1ba4f",
-                "reference": "b5ac4b104fa57bc38bbe998893363e2535a1ba4f",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/5350749d238f4d188d757662b785e40d9fc8d164",
+                "reference": "5350749d238f4d188d757662b785e40d9fc8d164",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-21T06:40:07+00:00"
+            "time": "2020-12-21T06:48:35+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -4794,16 +4794,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "fd8305521692f27eae3263895d1ef1571c71a78d"
+                "reference": "0b9231a5922fd7287ba5b411893c0ecd2733e5ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/fd8305521692f27eae3263895d1ef1571c71a78d",
-                "reference": "fd8305521692f27eae3263895d1ef1571c71a78d",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/0b9231a5922fd7287ba5b411893c0ecd2733e5ba",
+                "reference": "0b9231a5922fd7287ba5b411893c0ecd2733e5ba",
                 "shasum": ""
             },
             "require": {
@@ -4848,7 +4848,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-18T09:42:36+00:00"
+            "time": "2020-12-08T17:02:38+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
