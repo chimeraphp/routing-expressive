@@ -1,27 +1,27 @@
 {
     "name": "chimera/routing-expressive",
-    "description": "Zend Expressive implementation for chimera/routing",
     "type": "library",
+    "description": "Zend Expressive implementation for chimera/routing",
     "license": "MIT",
-    "abandoned": "chimera/routing-mezzio",
     "authors": [
         {
             "name": "Luís Cobucci",
             "email": "lcobucci@gmail.com"
         }
     ],
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
     "require": {
         "php": "^7.4 || ^8.0",
         "chimera/foundation": "^0.4@dev",
         "chimera/routing": "^0.4@dev",
+        "psr/http-message": "^1.0",
         "zendframework/zend-diactoros": "^2.2",
         "zendframework/zend-expressive": "^3.2",
         "zendframework/zend-expressive-fastroute": "^3.0",
-        "zendframework/zend-expressive-helpers": "^5.3"
+        "zendframework/zend-expressive-helpers": "^5.3",
+        "zendframework/zend-expressive-router": "^3.1"
+    },
+    "provide": {
+        "chimera/routing-implementation": "0.4.0"
     },
     "require-dev": {
         "infection/infection": "^0.20",
@@ -33,8 +33,14 @@
         "phpstan/phpstan-strict-rules": "^0.12",
         "phpunit/phpunit": "^9.5"
     },
-    "provide": {
-        "chimera/routing-implementation": "0.4.0"
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.4.x-dev"
+        }
     },
     "autoload": {
         "psr-4": {
@@ -46,9 +52,5 @@
             "Chimera\\Routing\\Expressive\\Tests\\": "tests"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.4.x-dev"
-        }
-    }
+    "abandoned": "chimera/routing-mezzio"
 }
