@@ -7,6 +7,8 @@
 [![Build Status]](https://github.com/chimeraphp/routing-expressive/actions?query=workflow%3A%22PHPUnit%20Tests%22+branch%3A0.5.x)
 [![Code Coverage]](https://codecov.io/gh/chimeraphp/routing-expressive)
 
+:warning: This package is deprecated and won't receive any updates, use [chimera/routing-mezzio](https://github.com/chimeraphp/routing-mezzio) instead :warning:
+
 > The term Chimera (_/kɪˈmɪərə/_ or _/kaɪˈmɪərə/_) has come to describe any
 mythical or fictional animal with parts taken from various animals, or to
 describe anything composed of very disparate parts, or perceived as wildly
